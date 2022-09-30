@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: neue-haas-grotesk-display;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* general tags */
+
+.d-flex {
+    display: flex;
+}
+
+.just-cont-center {
+    justify-content: center;
+}
+
+.just-cont-between {
+    justify-content: space-between;
+}
+
+.just-cont-around {
+    justify-content: space-around;
+}
+
+.just-cont-evenly {
+    justify-content: space-evenly;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-top {
+    align-items: flex-start;
+}
+
+.align-bottom {
+    align-items: flex-end;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.col1 {
+    flex: 1;
+}
+
+.col2 {
+    flex: 2;
+}
+
+.col3 {
+    flex: 3;
+}
+
+.page-padding {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.m-top {
+    margin-top: 80px;
+}
+
+.body-background {
+    background-color: rgb(243,236,227);
+}
+
+.orange {
+    background-color: rgb(189, 128, 67);
+}
+.blue-gray {
+    background-color: rgb(93, 109, 126);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: rgb(93, 109, 126);
+}
+
+.m-5 {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.m-10 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.light-font {
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.bold {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+/* Side Bar */
+.side-bar {
+    display: flex;
+    margin: 5% -8% ;
+    padding: 2%;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 8%;
+    background-color: transparent;
+    align-items: center;
+    right: 0px;
+}
+
+.link {
+    width: 10%;
+    margin: 10%;
+    background-color: transparent;
+    margin-left: 45%;
+}
+
+.line {
+    border-left: 3px solid rgb(93, 109, 126);
+    height: 500px;
+    margin-top: 2%;
+    background-color: transparent;
+}
+
+/* Header */
+
+#title {
+    width: 20%;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#header-right {
+    width: 70%;
+    text-align: end;
+    padding-left: 20%;
+}
+
+#header-right a {
+    text-decoration: none;
+    font-size: x-large;
+}
+
+
+
+/* main */
+#descriptors {
+    width: 20%;
+}
+
+#main-image {
+    height: 400px;
+}
+
+
+/* technologies */
+.tech{
+    background-color: white;
+    height: 60%;
+    width: 30%;
+    text-align: center;
+    margin: 2%;
+    flex: 1 0 18%;
+    box-shadow: 1px 1px 4px 6px #c7bfb2;
+}
+
+#express {
+    margin-bottom: 11.5%;
+}
+
+.icon{
+    width: 30%;
+    height: 50%;
+    margin: 15% 10% 10% 10%;
+}
+
+.webdev {
+    border-bottom: solid 7px rgb(183, 52, 52);
+}
+
+.database {
+    border-bottom: solid 7px rgb(189, 128, 67);
+}
+
+.language {
+    border-bottom: solid 7px rgb(201, 191, 48);
+}
+
+.hosting {
+    border-bottom: solid 7px rgb(95, 133, 117);
+}
+
+.framework {
+    border-bottom: solid 7px rgb(36, 54, 39);
+}
+
+.library {
+    border-bottom: solid 7px rgb(93, 109, 126);
+}
+
+.concepts {
+    border-bottom: solid 7px rgb(128, 77, 149);
+}
+
+/* projects */
+#project {
+    margin: .5%;
+    height: 620px;
+    width: 45%;
+}
+
+.p-padding {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.video {
+    width: 500px;
+    padding: 7%;
+}
+
+
+.projects {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: #c7bfb2;
+    height: 150px;
+}
+
+.bottom {
+    height: 25px;
+}
+
+/* history */
+
+.history {
+    border-bottom: 3px solid rgb(93, 109, 126);
+    border-left: 3px solid rgb(93, 109, 126);
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.clicked {
+    background-color: rgb(93, 109, 126);
+    color: rgb(243,236,227);
+}
+
+.white {
+    background: white;
+}
+
+.radius {
+    border-radius: 20%;
+}
+
+.p-margin {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+

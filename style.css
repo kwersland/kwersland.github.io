@@ -143,7 +143,7 @@
     top: 8%;
     background-color: transparent;
     align-items: center;
-    right: 0px;
+    right: 3%;
 }
 
 .link {
@@ -262,8 +262,9 @@
 }
 
 .video {
-    width: 500px;
-    padding: 7%;
+    height: 50%;
+    width: 75%;
+    padding: 2%;
 }
 
 
@@ -292,14 +293,11 @@
     background: white;
 }
 
-.radius {
-    border-radius: 20%;
-}
-
 .p-margin {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
@@ -312,4 +310,109 @@
 
 .bottom {
     height: 25px;
+}
+
+
+/* screen size */
+@media only screen and (max-width: 480px) {
+    .light-font {
+        display: none;
+    }
+
+    .bold {
+        padding-top: 5%;
+        font-size: small;
+        font-weight: 400;
+    }
+
+    .coder {
+        display: none;
+    }
+
+    projects {
+        display: inline-block;
+    }
+
+    #project {
+        margin: .5%;
+        height: 620px;
+        width: 100%;
+    }
+
+    .time {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 481px) {
+    #header-right {
+        display: none;
+    }
+
+    .light-font {
+        display: none;
+    }
+
+    .bold {
+        padding-top: 5%;
+        font-size: small;
+        font-weight: 400;
+    }
+
+    .side-bar {
+        display: none;
+    }
+
+    #project {
+        margin: .5%;
+        height: 620px;
+        width: 100%;
+    }
+
+    projects {
+        display: flex;
+    }
+
+    .time {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #header-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .light-font {
+        display: inline;
+        font-size: larger;
+        font-weight: lighter;
+    }
+    
+    .bold {
+        padding-top: 0%;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+    
+    .side-bar {
+        display: flex;
+    }
+
+    #project {
+        margin: .5%;
+        height: 620px;
+        width: 45%;
+    }
+
+    projects {
+        display: flex;
+    }
+
+    .time {
+        display: inline;
+    }
 }

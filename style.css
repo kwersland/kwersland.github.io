@@ -273,16 +273,6 @@
 }
 
 
-/* Footer */
-
-#footer {
-    background-color: #c7bfb2;
-    height: 150px;
-}
-
-.bottom {
-    height: 25px;
-}
 
 /* history */
 
@@ -312,3 +302,14 @@
     margin-top: 5%;
 }
 
+
+/* Footer */
+
+#footer {
+    background-color: #c7bfb2;
+    height: 10%;
+}
+
+.bottom {
+    height: 25px;
+}

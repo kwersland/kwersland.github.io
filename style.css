@@ -350,6 +350,11 @@
     .time {
         display: none;
     }
+    
+     #menu h2 {
+        font-size: smaller;
+        font-weight: 300;
+    }
 }
 
 

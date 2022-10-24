@@ -327,6 +327,14 @@
 
 /* screen size */
 @media only screen and (max-width: 480px) {
+    #header-right {
+        display: none;
+    }
+
+    .side-bar {
+        display: none;
+    }
+
     .light-font {
         display: none;
     }

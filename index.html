@@ -26,7 +26,7 @@
         <!-- Navbar -->
         <header class="d-flex align-center blue-gray p-30 fixed-top">
             <h2 id="title" class="text-white text-center">Karsten Wersland</h2>
-            <div id="header-right"class="d-flex align-center just-cont-evenly">
+            <div id="header-right">
                 <a class="text-white" href="#tech">tech</a>
                 <a class="text-white" href="#projects">projects</a>
                 <a class="text-white" href="#about">about</a>
@@ -39,13 +39,13 @@
             <!-- Main page -->
             <main class="d-flex just-cont-evenly p-40 m-top p-bottom">
                 <div id="descriptors" class="d-flex flex-column text-end just-cont-around">
-                    <h1 class="text-blue">< Coder/>.</h1>
-                    <h1 class="text-blue">team leader.</h1>
+                    <h1 class="text-blue coder">< Coder/>.</h1>
+                    <h1 class="text-blue coder">team leader.</h1>
                 </div>
                 <img id="main-image" class="p-40" src="images/main.png" alt="me">
                 <div id="descriptors" class="d-flex flex-column just-cont-around">
-                    <h1 class="text-blue">problem solver.</h1>
-                    <h1 class="text-blue">family man.</h1>
+                    <h1 class="text-blue coder">problem solver.</h1>
+                    <h1 class="text-blue coder">family man.</h1>
                 </div>
             </main>
             <!-- technology list -->
@@ -155,8 +155,8 @@
     
             <!-- project links -->
             <h1 id="projects" class="text-blue">projects.</h1>
-            <projects class="d-flex flex-wrap m-5 just-cont-center ">
-                <everstrong id="project" class="orange  d-flex flex-column align-center">
+            <projects class="flex-wrap m-5 just-cont-center ">
+                <everstrong id="project" class="orange projectBlock d-flex flex-column align-center">
                     <h1 class="text-center p-padding text-white">EverStrong Workout Manager</h1>
                     <p class="text-blue p-padding">A full stack Python project, designed to help workout enthusiasts schedule and create workouts 
                         and the exercises they want to do in them. You can see your week, weight, and workouts created 
@@ -208,19 +208,18 @@
                     Family is everything to me, my wife and I just had our first baby girl and my world now revolves around her. I love to workout,
                     go outside and watch TV. Nature is where I find happiness, especially when I get to go camping and hiking with my wife and hopefully soon 
                     our little girl!
-                </h4>
+                </h2>
             </about>
     
             <!-- history -->
             <h1 class="text-blue">history.</h1>
             <history id="history" class="p-40 p-bottom">
-                <div class="p-padding d-flex">
+                <div id="menu" class="p-padding d-flex">
                     <h2 class="text-blue history energy" onmouseover="change(this)" onmouseout="changeBack(this)" onclick="energyConsultant()">Energy Consultant</h2>
                     <h2 class="text-blue history executive" onmouseover="change(this)" onmouseout="changeBack(this)" onclick="accountExecutive()">Account Executive</h2>
-                    <h2 class="text-blue history fitness" onmouseover="change(this)" onmouseout="changeBack(this)" onclick="fitnessConsultant()">Fitness Consultant</h2>
                     <h2 class="text-blue history missionary" onmouseover="change(this)" onmouseout="changeBack(this)" onclick="missionary()">Volunteer Missionary</h2>
                 </div>
-                <div class="p-margin p-40 white radius">
+                <div class="box p-margin p-40 white">
                     <div class="d-flex align-center just-cont-between">
                         <h1 class="title text-blue p-20">Energy Consultant</h1>
                         <h4 class="time text-light text-blue p-20">Feb 2021 - Jul 2022</h4>
@@ -239,7 +238,7 @@
 
         <!-- footer with links -->
         <footer id="footer">
-            <div class="d-flex just-cont-around align-center p-padding">
+            <div class="contactsIcons d-flex just-cont-around align-center p-padding">
                 <a href="http://github.com/kwersland"><img class="bottom" src="images/github.png" alt="github"></a>
                 <a href="http://linkedin.com/in/karsten-wersland"><img class="bottom" src="images/linkedin.png" alt="linkedin"></a>
                 <a class="text-blue" href="mailto:k.wersland25@gmail.com">k.wersland25@gmail.com</a>

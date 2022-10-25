@@ -327,6 +327,11 @@
 
 /* screen size */
 @media only screen and (max-width: 480px) {
+    #title {
+        width: 100%;
+        text-align: start;
+    }
+
     #header-right {
         display: none;
     }
@@ -363,6 +368,14 @@
         display: none;
     }
 
+    #description h3{
+        font-size: smaller;
+    }
+
+    #about h2 {
+        font-size: smaller;
+    }
+
     #menu h2 {
         font-size: smaller;
         font-weight: 300;
@@ -375,6 +388,11 @@
 
 
 @media only screen and (min-width: 481px) {
+    #title {
+        width: 100%;
+        text-align: start;
+    }
+
     #header-right {
         display: none;
     }
@@ -413,6 +431,10 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    #title {
+        width: 20%;
+    }
+
     #header-right {
         display: flex;
         align-items: center;
@@ -443,6 +465,10 @@
 
     projects {
         display: flex;
+    }
+
+    #description h3{
+        font-size: larger;
     }
 
     .time {

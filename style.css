@@ -372,6 +372,10 @@
         font-size: smaller;
     }
 
+    #description div h1 {
+        font-size: larger;
+    }
+
     #about h2 {
         font-size: smaller;
     }
@@ -465,10 +469,6 @@
 
     projects {
         display: flex;
-    }
-
-    #description h3{
-        font-size: larger;
     }
 
     .time {

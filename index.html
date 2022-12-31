@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karsten Wersland</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
     <div class="body-background">
@@ -42,7 +43,7 @@
                     <h1 class="text-blue coder">< Coder/>.</h1>
                     <h1 class="text-blue coder">team leader.</h1>
                 </div>
-                <img id="main-image" class="p-40" src="images/main.png" alt="me">
+                <img id="main-image" class="p-40" src="images/family.png" alt="me">
                 <div id="descriptors" class="d-flex flex-column just-cont-around">
                     <h1 class="text-blue coder">problem solver.</h1>
                     <h1 class="text-blue coder">family man.</h1>
@@ -155,48 +156,52 @@
     
             <!-- project links -->
             <h1 id="projects" class="text-blue">projects.</h1>
+            <p class="text-blue"> *click on the title for the github/deployment link!</p>
             <projects class="flex-wrap m-5 just-cont-center ">
                 <everstrong id="project" class="orange projectBlock d-flex flex-column align-center">
-                    <h1 class="text-center p-padding text-white">EverStrong Workout Manager</h1>
-                    <p class="text-blue p-padding">A full stack Python project, designed to help workout enthusiasts schedule and create workouts 
+                    <a class="text-decoration-none p-top" href="http://34.216.203.8">
+                        <h1 class="text-center p-top text-blue">EverStrong Workout Manager</h1>
+                    </a>
+                    <p class="text-white p-padding">A full stack Python project, designed to help workout enthusiasts schedule and create workouts 
                         and the exercises they want to do in them. You can see your week, weight, and workouts created 
-                        by other users.
-                        <a class="text-blue" href="https://github.com/kwersland/EverStrong">github</a>
+                        by other users. <br><br>
+                        MADE WITH: Python - Flask - Jinja - HTML - CSS - Bootstrap - JavaScript - Regex - Ajax - MySQL - BCrypt
                     </p>
-                    <p class="text-blue p-padding">MADE WITH: Python - Flask - Jinja - HTML - CSS - Bootstrap - JavaScript - Regex - Ajax - MySQL - BCrypt</p>
                     <video class="video" src="videos/everstrong.mov" autoplay loop></video>
                     
                 </everstrong>
                 <exercises id="project" class="orange d-flex flex-column align-center">
-                    <h1 class="text-center p-padding text-white">Exercises REST-API</h1>
-                    <p class="text-blue p-padding"> A back end/database project providing a large database of exercises, descriptions and 
+                    <a class="text-decoration-none p-top" href="https://github.com/kwersland/exercises-api">
+                        <h1 class="text-center p-top text-blue">Exercises REST-API</h1>
+                    </a>
+                    <p class="text-white p-padding"> A back end/database project providing a large database of exercises, descriptions and 
                         their muscle group. With the ability to search for exercises by muscle group, it provides the functionality of most 
-                        any other RESTful-API.
-                        <a class="text-blue" href="https://github.com/kwersland/exercises-api">github</a>
+                        any other RESTful-API. <br><br>
+                        MADE WITH: React - Node - MongoDB - Mongoose - JavaScript
                     </p>
-                    <p class="text-blue p-padding">MADE WITH: React - Node - MongoDB - Mongoose - JavaScript</p>
                     <video class="video" src="videos/exercises.mov" autoplay loop></video>
                 </exercises>
                 <games id="project" class="orange d-flex flex-column align-center ">
-                    <h1 class="text-center p-padding text-white">OOP Terminal Games</h1>
-                    <p class="text-blue p-padding"> Two back end games made for interactive play in the terminal on mac/linux or windows.
+                    <a class="p-top text-decoration-none" href="https://github.com/kwersland/terminal-games">
+                        <h1 class="text-center p-top text-blue">OOP Terminal Games</h1>
+                    </a>
+                    <p class="text-white p-padding"> Two back end games made for interactive play in the terminal on mac/linux or windows.
                         Providing options for the user to choose the player and the movements, these games implement complex algorithms to
-                        include randomized features.
-                        <a class="text-blue" href="https://github.com/kwersland/terminal-games">github</a>
+                        include randomized features.<br><br>
+                        MADE WITH: Python - Flask
                     </p>
-                    <p class="text-blue p-padding">MADE WITH: Python - Flask</p>
                     <video class="video" src="videos/games.mov" autoplay loop></video>
                 </games>
                 <portfolio id="project" class="orange d-flex flex-column align-center ">
-                    <h1 class="text-center p-padding text-white">Portfolio</h1>
-                    <p class="text-blue p-padding"> Front end technologies used to their full extent to display my personal information,
+                    <a class="p-top text-decoration-none" href="https://github.com/kwersland/kwersland.github.io">
+                        <h1 class="text-center p-top text-blue">Portfolio</h1>
+                    </a>
+                    <p class="text-white p-padding"> Front end technologies used to their full extent to display my personal information,
                         projects, technologies and skills. Javascript used to change elements on the screen and An excellent display of 
-                        my front-end skills with styling coming from my own css file.
-                        <a class="text-blue" href="https://github.com/kwersland/kwersland.github.io">github</a>
+                        my front-end skills with styling coming from my own css file. <br><br>
+                        MADE WITH: HTML - CSS - JavaScript
                     </p>
-                    <p class="text-blue p-padding">MADE WITH: HTML - CSS - JavaScript</p>
                     <video class="video" src="videos/portfolio.mov" autoplay loop></video>
-
                 </portfolio>
             </projects>
     
@@ -204,9 +209,9 @@
             <about id="about">
                 <h1 class="text-blue">about.</h1>
                 <h2 class="text-blue p-padding p-40">I have spent the last 2.5 years in sales, with experience from software sales to solar sales. 
-                    I am an excellent worker, and love working on a team, but when necessary I also work great alone. I am a team player, and when necessary a great team leader!
-                    Family is everything to me, my wife and I just had our first baby girl and my world now revolves around her. I love to workout,
-                    go outside and watch TV. Nature is where I find happiness, especially when I get to go camping and hiking with my wife and hopefully soon 
+                    I am an excellent worker, and love working on a team, but I also am great at putting my head down and getting it done. I am a team player, 
+                    and when necessary a great team leader! Family is everything to me, my wife and I just had our first baby girl and my world now revolves around her. 
+                    I love to workout, go outside and watch TV. Nature is where I find happiness, especially when I get to go camping and hiking with my wife and hopefully soon 
                     our little girl!
                 </h2>
             </about>
@@ -214,10 +219,13 @@
             <!-- history -->
             <h1 class="text-blue">history.</h1>
             <history id="history" class="p-40 p-bottom">
-                <div id="menu" class="p-padding d-flex">
-                    <h2 class="text-blue history energy" onmouseover="change(this)" onmouseout="changeBack(this)" onclick="energyConsultant()">Energy Consultant</h2>
-                    <h2 class="text-blue history executive" onmouseover="change(this)" onmouseout="changeBack(this)" onclick="accountExecutive()">Account Executive</h2>
-                    <h2 class="text-blue history missionary" onmouseover="change(this)" onmouseout="changeBack(this)" onclick="missionary()">Volunteer Missionary</h2>
+                <div class="p-padding">
+                    <div id="menu" class="d-flex">
+                        <h2 class="text-blue history energy" onmouseover="change(this)" onmouseout="changeBack(this)" onclick="energyConsultant()">Energy Consultant</h2>
+                        <h2 class="text-blue history executive" onmouseover="change(this)" onmouseout="changeBack(this)" onclick="accountExecutive()">Account Executive</h2>
+                        <h2 class="text-blue history missionary" onmouseover="change(this)" onmouseout="changeBack(this)" onclick="missionary()">Volunteer Missionary</h2>
+                    </div>
+                    <p class="text-blue">*click one for the details</p>
                 </div>
                 <div id="description" class="box p-margin p-40 white">
                     <div class="d-flex align-center just-cont-between">
